@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/center_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/center_view"
+        android:gravity="center_horizontal"
+        android:text="@string/horizontal" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/center_view"
+        android:gravity="center_horizontal"
+        android:text="@string/vertical" />
+    
+    <View
+        android:id="@+id/center_view1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/textView3"
+        android:layout_centerInParent="true" />
+    
+    <NumberPicker
+        android:id="@+id/numberPicker7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/center_view1"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="0dp" >
+
+</NumberPicker>
+
+    <NumberPicker
+        android:id="@+id/numberPicker8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/numberPicker7"
+        android:layout_toRightOf="@+id/numberPicker7" />
+
+</RelativeLayout>

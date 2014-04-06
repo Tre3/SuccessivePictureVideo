@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.android.successivepicturevideo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="13"
+        android:targetSdkVersion="18" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="org.android.successivepicturevideo.SuccessivePictureVideo"
+            android:label="@string/app_name"
+            android:configChanges="orientation|keyboardHidden|screenSize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.android.successivepicturevideo.SuccessivePictureVideoPictureView"
+            android:label="@string/title_activity_successive_picture_video_picture_view"
+            android:configChanges="orientation|keyboardHidden|screenSize" >
+        </activity>
+        <activity
+            android:name="org.android.successivepicturevideo.SuccessivePictureVideoThumbnail"
+            android:label="@string/title_activity_successive_picture_video_thumbnail"
+            android:configChanges="orientation|keyboardHidden|screenSize" >
+        </activity>
+        <service android:name="SuccessivePictureVideoOverlay" />
+    </application>
+</manifest>

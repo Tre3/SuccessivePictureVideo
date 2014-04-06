@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SuccessivePictureVideo</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_save">SaveBitmap</string>
+    <string name="action_save2">SaveBitmap</string>
+    <string name="Video">Video</string>
+    <string name="PictureView">PictureView</string>
+    <string name="Thumbnail">Thumbnail</string>
+    <string name="title_activity_successive_picture_video_picture_view">SuccessivePictureVideoPictureView</string>
+    <string name="micro_second">μs</string>
+    <string name="vertical">vertical</string>
+    <string name="vertical1">vertical</string>
+    <string name="horizontal">horizontal</string>
+    <string name="horizontal1">horizontal</string>
+    <string name="description">description</string>
+    <string name="title_activity_successive_picture_video_thumbnail">SuccessivePictureVideo</string>
+    <string name="title_activity_successive_picture_video_overlay">SuccessivePictureVideo</string>
+    <string name="title_activity_successive_picture_video_global_variable">SuccessivePictureVideoGlobalVariable</string>
+	<string name="overlay">overlay</string>
+    
+</resources>
