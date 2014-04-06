@@ -1,5 +1,6 @@
 #Gitチュートリアル
 
--feature-B
+- feature-B
 - fix-C
 - feature-D
+- feature-E
